@@ -1,0 +1,87 @@
+#footer{
+  *background-color:#1a1a1a;
+  padding:40px 0;
+
+}
+#footer h5,#footer-mobile h5{
+  *padding-bottom:10px;
+  color:white;
+  font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-weight:normal;
+}
+
+ul li{
+  list-style-type: none;
+}
+#footer a li:hover,#footer-mobile a li:hover{
+  text-decoration:underline;
+}
+#footer ul li,#footer-mobile ul li{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size:15px;
+  color: #b2b2b2;
+}
+
+.social-footer a i{
+  font-size:1.3em;
+  color: #999a9b;
+
+}
+#footer form input{
+  border:none;
+  border-radius:3px;
+}
+#footer form ::placeholder{
+  font-size:13px;
+  padding-left:6px;
+}
+
+
+#footer form button{
+  border:none;
+  border-radius:3px;
+  color:rgba(0,0,0,0.9);
+  background-color: white;
+  font-size:15px;
+  padding:2px 8px;
+}
+#footer form button:hover{
+  color:white;
+  background-color: #17a2b8;
+
+}
+#footer p{
+  margin-top: 3px;
+  color:#b2b2b2;
+  font-size:12px;
+  font-style: italic;
+  *font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

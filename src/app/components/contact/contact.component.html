@@ -1,0 +1,40 @@
+<div class="container mb-5">
+  <div class="row mt-5">
+    <div class="col-6 mt-5">
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="enter your email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" class="form-control" id="subject" placeholder="your subject">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Your text</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-outline-info">Submit</button>
+      </form>
+    </div>
+    <div class="col-6 mt-5">
+      <agm-map
+        [latitude]="departments[0].latitude"
+        [longitude]="departments[0].longitude"
+        [zoom] = "9"
+      >
+        <agm-marker *ngFor="let dep of departments"
+                    [latitude]="dep.latitude"
+                    [longitude]="dep.longitude"
+                    [title]="dep.name"
+        >
+
+        </agm-marker>
+
+      </agm-map>
+
+    </div>
+  </div>
+</div>
