@@ -1,0 +1,36 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="table-responsive">
+
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Photo</th>
+                            <th>Title</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                  <tbody>
+                    <tr *ngFor=" let p of products">
+                        <td><img [src]="p.photo" style="height:40px;"/></td>
+                      <td> {{ p.title}} &euro;</td>
+                      <td>{{ p.price}}</td>
+                      <td>1</td>
+                      <td> {{ p.price*1 }} &euro;</td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                        <th colspan="4" class="text-right">Grand total:</th>
+                      <td> {{ printGrandTotal()}} &euro;</td>
+                    </tr>
+                  </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
