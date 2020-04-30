@@ -26,7 +26,7 @@
     "@ngx-gallery/core": "^4.0.3",
     "@ngx-gallery/lightbox": "^4.0.3",
     "bootstrap": "^4.0.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ngx-bootstrap": "^5.2.0",
     "ngx-masonry": "^1.1.4",
     "ngx-owl-carousel-o": "^2.0.3",
